@@ -1,4 +1,4 @@
-zcmb,zhel,mb,e_mb
+CMB_frame_redshift,heliocentric_redshift,B_band_peak_magnitude_mb,error_in_mb
 0.072,0.0727,18.984,0.113
 0.022,0.0227,16.021,0.149
 0.035,0.0343,16.971,0.14
