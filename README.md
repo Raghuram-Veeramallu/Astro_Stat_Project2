@@ -1,10 +1,10 @@
 # Astro_Stat_Project2
 Project 2 Repository for Astro Statistics
 
-zcmb = [0,1.4] CMB frame redshift
 
-zhel = 	[0,1.4] Heliocentric redshift
+## Variables in CSV: 
 
-mb = B band peak magnitude mB
-
-e_mb = 	Error in mb
+- [0,1.4] CMB frame redshift (zcmb in original dataset)
+- [0,1.4] Heliocentric redshift (zhel in original dataset)
+- B band peak magnitude mB (mb in original dataset)
+- Error in mb (e_mb in original dataset)
