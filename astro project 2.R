@@ -20,7 +20,7 @@ data$dist_moduli = data$mb - (data$MB - alpha * data$x1 + beta * data$c)
 # distance
 data$d = 10^(data$dist_moduli/5 + 1)
 
-# Create the linear model variable
+# Create the linear model variable (original model with no transformations)
 mod = lm(d ~ zcmb, data = data)
 plot(mod)
 
@@ -35,7 +35,7 @@ valuezcmb = transzcmb$x[which.max(transzcmb$y)]
 data$dtransf = data$d ^ valued
 data$zcmbtrans = data$zcmb ^ valuezcmb
 
-# lambda is closest to 0.5 so transforming response
+# transforming and fitting model
 mod2 = lm(dtransf ~ zcmbtrans, data = data)
 plot(mod2)
 summary(mod2)
