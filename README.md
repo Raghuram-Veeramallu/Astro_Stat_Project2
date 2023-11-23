@@ -3,6 +3,8 @@
 
 ### Data
 
+Python version used: `3.10.12`  
+
 Source: 
 Processed Data: https://drive.google.com/file/d/1tNsa4dsuUuPDwI-Hin4MMx0rOuYFSbLC/view
 
