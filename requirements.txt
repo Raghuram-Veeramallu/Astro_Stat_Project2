@@ -1,0 +1,7 @@
+scipy==1.11.3
+pandas==1.5.3
+pymc==5.7.2
+matplotlib==3.7.1
+numpy==1.23.5
+arviz==0.15.1
+xarray==2023.7.0
