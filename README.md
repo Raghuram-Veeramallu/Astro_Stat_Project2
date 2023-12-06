@@ -1,6 +1,5 @@
 # Astro_Stat_Project2
 
-
 ### Data
 
 Python version used: `3.10.12`  
